@@ -34,7 +34,6 @@ double T(double argument) {
 int main() {
     double y, chislitelb, znamenatelb, res;
 
-    // Начало замера времени
     auto start = std::chrono::high_resolution_clock::now();
 
     std::cout << "Enter your y:\n";
@@ -47,9 +46,8 @@ int main() {
     std::cout.precision(10);
     std::cout << "Ответ: " << res << std::endl; 
 
-    // Завершение замера времени
     auto end = std::chrono::high_resolution_clock::now();
-    std::chrono::duration<double> duration = end - start; // Разница между конечным и начальным временем
+    std::chrono::duration<double> duration = end - start; 
 
     std::cout << "Время выполнения: " << duration.count() << " секунд" << std::endl;
 
