@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cmath>
 
 double v_stepenb(double osnovanie_stepeni, int stepenb) {
     double result = 1;
