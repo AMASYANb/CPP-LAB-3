@@ -1,5 +1,5 @@
 # Игнорировать директорию .vscode
-.vscode/
+.vscode
 
 # Игнорировать директорию .build
-.build/
+.build\debug
